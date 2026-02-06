@@ -4,7 +4,7 @@ Personal portfolio site showcasing product management experience and AI-native d
 
 ## 🚀 Live Site
 
-**Production:** [https://pm-portfolio-ten-rust.vercel.app/](https://pm-portfolio-ten-rust.vercel.app/)
+**Production:** [https://pm-portfolio-ten-rust.vercel.app/](https://pm-portfolio-goehmen.vercel.app/)
 
 ## 🏗 Architecture
 

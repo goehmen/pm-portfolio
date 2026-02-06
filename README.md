@@ -4,7 +4,7 @@ Personal portfolio site showcasing product management experience and AI-native d
 
 ## 🚀 Live Site
 
-**Production:** [https://pm-portfolio-ten-rust.vercel.app/](https://pm-portfolio-goehmen.vercel.app/)
+**Production:** [https://pm-portfolio-goehmen.vercel.app/](https://pm-portfolio-goehmen.vercel.app/)
 
 ## 🏗 Architecture
 
@@ -19,6 +19,7 @@ Personal portfolio site showcasing product management experience and AI-native d
 - **Styling:** Tailwind CSS
 - **Deployment:** Vercel (auto-deploy from main branch)
 - **Version Control:** Git + GitHub
+- **Dev Tooling:** Claude Opus 4.5 / Cursor 2.4.28
 
 ## 📦 Project Structure
 
@@ -29,7 +30,7 @@ pm-portfolio/
 │   ├── layout.tsx        # Root layout
 │   └── globals.css       # Global styles + Tailwind imports
 ├── diagrams/
-│   └── session1_architecture.svg
+│   └── pm-portfolio-hub_session1_architecture.svg
 ├── public/               # Static assets
 ├── package.json          # Dependencies
 └── README.md            # This file
@@ -61,25 +62,6 @@ Automatically deployed via Vercel when code is pushed to the `main` branch.
 **Deployment flow:**
 1. Push to GitHub → 2. Vercel detects changes → 3. Builds & deploys → 4. Live in ~2 minutes
 
-## 📊 Session 1 Stats
-
-- ⏱ **Build Time:** ~2 hours
-- 🎯 **Features:** Hero section, responsive design, CI/CD pipeline
-- ✅ **Status:** Live and deployed
-- 🔄 **Auto-Deploy:** Active (GitHub → Vercel)
-
-## 🎯 Roadmap
-
-**V2 (Next):**
-- [ ] About section with professional summary
-- [ ] Skills showcase
-- [ ] Mobile responsiveness testing
-
-**V3 (Future):**
-- [ ] Projects portfolio section
-- [ ] Contact form
-- [ ] Dark mode toggle
-- [ ] Analytics integration
 
 ## 🧑‍💻 Development Notes
 
@@ -91,4 +73,4 @@ This project was built using AI-native development workflows, demonstrating:
 
 ---
 
-**Built by Greg Oehmen** | [GitHub](https://github.com/goehmen) | [Live Site](https://pm-portfolio-ten-rust.vercel.app/)
+**Built by Greg Oehmen** | [GitHub](https://github.com/goehmen) | [Live Site](https://pm-portfolio-goehmen.vercel.app/)

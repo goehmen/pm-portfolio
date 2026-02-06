@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PM Portfolio Hub
 
-## Getting Started
+Personal portfolio site showcasing product management experience and AI-native development skills.
 
-First, run the development server:
+## 🚀 Live Site
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Production:** [https://pm-portfolio-ten-rust.vercel.app/](https://pm-portfolio-ten-rust.vercel.app/)
+
+## 🏗 Architecture
+
+![Session 1 Architecture](./diagrams/session1_architecture.svg)
+
+*Full-stack development environment from local dev to production deployment*
+
+## 🛠 Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel (auto-deploy from main branch)
+- **Version Control:** Git + GitHub
+
+## 📦 Project Structure
+
+```
+pm-portfolio/
+├── app/
+│   ├── page.tsx          # Homepage (hero section)
+│   ├── layout.tsx        # Root layout
+│   └── globals.css       # Global styles + Tailwind imports
+├── diagrams/
+│   └── session1_architecture.svg
+├── public/               # Static assets
+├── package.json          # Dependencies
+└── README.md            # This file
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
+- Node.js 18+
+- npm
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Local Development
+```bash
+# Install dependencies
+npm install
 
-## Learn More
+# Start dev server
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The page auto-updates as you edit `app/page.tsx`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Deployment
 
-## Deploy on Vercel
+Automatically deployed via Vercel when code is pushed to the `main` branch.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Deployment flow:**
+1. Push to GitHub → 2. Vercel detects changes → 3. Builds & deploys → 4. Live in ~2 minutes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📊 Session 1 Stats
+
+- ⏱ **Build Time:** ~2 hours
+- 🎯 **Features:** Hero section, responsive design, CI/CD pipeline
+- ✅ **Status:** Live and deployed
+- 🔄 **Auto-Deploy:** Active (GitHub → Vercel)
+
+## 🎯 Roadmap
+
+**V2 (Next):**
+- [ ] About section with professional summary
+- [ ] Skills showcase
+- [ ] Mobile responsiveness testing
+
+**V3 (Future):**
+- [ ] Projects portfolio section
+- [ ] Contact form
+- [ ] Dark mode toggle
+- [ ] Analytics integration
+
+## 🧑‍💻 Development Notes
+
+This project was built using AI-native development workflows, demonstrating:
+- Modern toolchain setup (Next.js 15, TypeScript, Tailwind)
+- Git workflow best practices
+- Cloud deployment automation
+- Production-grade architecture
+
+---
+
+**Built by Greg Oehmen** | [GitHub](https://github.com/goehmen) | [Live Site](https://pm-portfolio-ten-rust.vercel.app/)

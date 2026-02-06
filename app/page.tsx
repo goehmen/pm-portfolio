@@ -18,7 +18,7 @@ export default function Home() {
             {/* Scroll Indicator */}
             <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
             <svg 
-                className="w-6 h-6 text-gray-400" 
+                className="w-18 h-18 text-gray-400" 
                 fill="none" 
                 strokeLinecap="round" 
                 strokeLinejoin="round" 

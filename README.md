@@ -8,7 +8,7 @@ Personal portfolio site showcasing product management experience and AI-native d
 
 ## 🏗 Architecture
 
-![Session 1 Architecture](./diagrams/pm-portfolio-hub session1_architecture.svg)
+![Session 1 Architecture](./diagrams/pm-portfolio-hub_session1_architecture.svg)
 
 *Full-stack development environment from local dev to production deployment*
 

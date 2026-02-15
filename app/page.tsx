@@ -55,12 +55,12 @@ export default function Home() {
                 Passionate about building AI-native products that solve real problems. 
                 Combining deep technical systems thinking with proven commercial 
                 execution.
-              </p>
-            </div>
+              </p> 
+              </div>
   
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="p-6 bg-gray-50 rounded-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
                   Cloud Platforms
                 </h3>
                 <p className="text-gray-600">
@@ -97,6 +97,61 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* Projects Section */}
+      <section className="py-20 px-4 bg-gray-50">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">
+            Projects
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Project Card 1 */}
+            <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-200">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold text-gray-900">
+                  AI-Powered PRD Generator
+                </h3>
+                <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">
+                  Coming Soon
+                </span>
+              </div>
+              <p className="text-gray-600">
+                Tool to transform product ideas into structured PRDs using AI assistance
+              </p>
+            </div>
+
+            {/* Project Card 2 */}
+            <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-200">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold text-gray-900">
+                  Platform Metrics Dashboard
+                </h3>
+                <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">
+                  Coming Soon
+                </span>
+              </div>
+              <p className="text-gray-600">
+                Real-time analytics dashboard for platform health and adoption metrics
+              </p>
+            </div>
+
+            {/* Project Card 3 */}
+            <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-200">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold text-gray-900">
+                  API Documentation Hub
+                </h3>
+                <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">
+                  Coming Soon
+                </span>
+              </div>
+              <p className="text-gray-600">
+                Interactive API documentation with live examples and sandbox environment
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       </div>
     );
   }

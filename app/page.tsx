@@ -32,7 +32,7 @@ export default function Home() {
         </section>
         
           
-        <section className="py-20 px-4 bg-white">
+        <section id="about"className="py-20 px-4 bg-white">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">
               About
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
         </section>
         {/* Projects Section */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section id="projects"className="py-20 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
             Projects
@@ -175,6 +175,150 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Contact Section */}
+      <section id="contact" className="py-20 px-4 bg-white">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
+            Get In Touch
+          </h2>
+          <p className="text-gray-600 text-center mb-8">
+            Interested in fractional CPO services or discussing product strategy? Let's connect.
+          </p>
+          
+          <form 
+            action="https://formspree.io/f/meelkknl" 
+            method="POST"
+            className="space-y-6"
+          >
+            <div>
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                Name
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900"
+                placeholder="Your name"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                Email
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900"
+                placeholder="your.email@example.com"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                Message
+              </label>
+              <textarea
+                name="message"
+                id="message"
+                required
+                rows={5}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900"
+                placeholder="Tell me about your project or inquiry..."
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="w-full bg-blue-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+      {/* Footer */}
+      <footer className="bg-gray-900 text-gray-300 py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            {/* Column 1: About */}
+            <div>
+              <h3 className="text-white font-bold mb-4">Greg Oehmen</h3>
+              <p className="text-sm">
+                Product leader specializing in cloud platforms, fintech APIs, and AI-enabled products.
+              </p>
+            </div>
+
+            {/* Column 2: Quick Links */}
+            <div>
+              <h3 className="text-white font-bold mb-4">Quick Links</h3>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <a href="#about" className="hover:text-white transition-colors">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#projects" className="hover:text-white transition-colors">
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="hover:text-white transition-colors">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Column 3: Connect */}
+            <div>
+              <h3 className="text-white font-bold mb-4">Connect</h3>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <a 
+                    href="https://www.linkedin.com/in/grego" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-white transition-colors"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://github.com/goehmen" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-white transition-colors"
+                  >
+                    GitHub
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://gregoehmen.io" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-white transition-colors"
+                  >
+                    gregoehmen.io
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Bottom Bar */}
+          <div className="border-t border-gray-800 pt-8 text-center text-sm">
+            <p>© {new Date().getFullYear()} Greg Oehmen. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
       </div>
     );
   }

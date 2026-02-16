@@ -105,7 +105,30 @@ export default function Home() {
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Project Card 1 */}
+            {/* Project Card 1 - Featured */}
+            <div className="bg-white p-6 rounded-lg border-2 border-blue-500 hover:shadow-lg transition-shadow duration-200">
+              <div className="mb-3">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                  Fractional Chief Product Officer
+                </h3>
+                <span className="px-3 py-1 bg-green-100 text-green-800 text-sm font-medium rounded-full">
+                  Live
+                </span>
+              </div>
+              <p className="text-gray-600 mb-4">
+                My professional services practice offering strategic product leadership for early-stage startups and growth companies (gregoehmen.io)
+              </p>
+              <a 
+                href="https://gregoehmen.io" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200"
+              >
+                Visit Website →
+              </a>
+            </div>
+  
+             {/* Project Card 2 */}
             <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-200">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-xl font-bold text-gray-900">
@@ -120,7 +143,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Project Card 2 */}
+            {/* Project Card 3 */}
             <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-200">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-xl font-bold text-gray-900">
@@ -135,7 +158,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Project Card 3 */}
+            {/* Project Card 4 */}
             <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-200">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-xl font-bold text-gray-900">

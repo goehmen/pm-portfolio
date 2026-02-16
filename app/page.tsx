@@ -116,7 +116,7 @@ export default function Home() {
                 </span>
               </div>
               <p className="text-gray-600 mb-4">
-                My professional services practice offering strategic product leadership for early-stage startups and growth companies (gregoehmen.io)
+                Professional services site showcasing fractional CPO expertise and product leadership portfolio
               </p>
               <a 
                 href="https://gregoehmen.io" 

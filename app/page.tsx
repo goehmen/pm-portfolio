@@ -244,7 +244,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 py-12 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             {/* Column 1: About */}
             <div>
               <h3 className="text-white font-bold mb-4">Greg Oehmen</h3>
@@ -309,6 +309,17 @@ export default function Home() {
                     gregoehmen.io
                   </a>
                 </li>
+              </ul>
+            </div>
+
+            {/* Column 4: Tech Stack */}
+            <div>
+              <h3 className="text-white font-bold mb-4">Tech Stack</h3>
+              <ul className="space-y-2 text-sm">
+              <li>Next.js • TypeScript</li>
+                <li>Tailwind CSS • Formspree</li>
+                <li>Vercel • GitHub</li>
+                <li>Claude AI • Cursor</li>
               </ul>
             </div>
           </div>

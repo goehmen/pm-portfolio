@@ -34,6 +34,11 @@ export const metadata: Metadata = {
     siteName: "Greg Oehmen Portfolio",
     type: "website",
   },
+  twitter: {
+    card: "summary",
+    title: "Greg Oehmen | Product Leader & AI-Native Builder",
+    description: "Senior product leader with 12+ years building cloud platforms, fintech APIs, and AI-enabled products. Fractional CPO for early-stage startups.",
+  },
 };
 
 export default function RootLayout({

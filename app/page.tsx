@@ -65,7 +65,7 @@ export default function Home() {
               </div>
   
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="p-6 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <div className="p-6 bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-lg hover:shadow-lg dark:hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-200">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   Cloud Platforms
                 </h3>
@@ -74,7 +74,7 @@ export default function Home() {
                 </p>
               </div>
   
-              <div className="p-6 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <div className="p-6 bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-lg hover:shadow-lg dark:hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-200">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   Fintech & Payments
                 </h3>
@@ -83,7 +83,7 @@ export default function Home() {
                 </p>
               </div>
   
-              <div className="p-6 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <div className="p-6 bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-lg hover:shadow-lg dark:hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-200">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   AI Strategy
                 </h3>
@@ -92,7 +92,7 @@ export default function Home() {
                 </p>
               </div>
   
-              <div className="p-6 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <div className="p-6 bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-lg hover:shadow-lg dark:hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-200">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   Developer Tools
                 </h3>
@@ -112,7 +112,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Project Card 1 - Featured */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border-2 border-blue-500 dark:border-blue-400 hover:shadow-lg transition-shadow duration-200">
+            <div className="bg-white dark:bg-gray-800 dark:hover:bg-gray-700 p-6 rounded-lg border-2 border-blue-500 dark:border-blue-400 hover:shadow-lg dark:hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-200">
               <div className="mb-3">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   Fractional Chief Product Officer
@@ -135,7 +135,7 @@ export default function Home() {
             </div>
   
              {/* Project Card 2 */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg transition-shadow duration-200">
+             <div className="bg-white dark:bg-gray-800 dark:hover:bg-gray-700 p-6 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg dark:hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-200">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                   AI-Powered PRD Generator
@@ -150,7 +150,7 @@ export default function Home() {
             </div>
 
             {/* Project Card 3 */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg transition-shadow duration-200">
+            <div className="bg-white dark:bg-gray-800 dark:hover:bg-gray-700 p-6 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg dark:hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-200">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                   Platform Metrics Dashboard
@@ -165,7 +165,7 @@ export default function Home() {
             </div>
 
             {/* Project Card 4 */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg transition-shadow duration-200">
+            <div className="bg-white dark:bg-gray-800 dark:hover:bg-gray-700 p-6 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg dark:hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-200">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                   API Documentation Hub

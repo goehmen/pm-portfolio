@@ -1,16 +1,22 @@
+import { ThemeToggle } from "./components/ThemeToggle";
+
 export default function Home() {
     return (
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+          {/* Theme Toggle */}
+          <div className="fixed top-4 right-4 z-50">
+          <ThemeToggle />
+        </div>
         {/* Hero Section */}
         <section className="flex items-center justify-center min-h-screen relative">
             <div className="text-center px-4">
-            <h1 className="text-5xl font-bold text-gray-900 mb-4">
+            <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
                 Greg Oehmen
             </h1>
-            <p className="text-xl text-gray-600 mb-2">
+            <p className="text-xl text-gray-600 dark:text-gray-300 mb-2">
                 Product Leader & AI-Native Builder
             </p>
-            <p className="text-lg text-gray-500">
+            <p className="text-lg text-gray-500 dark:text-gray-400">
                 Cloud Platforms • Fintech APIs • AI Strategy
             </p>
             </div>
@@ -18,7 +24,7 @@ export default function Home() {
             {/* Scroll Indicator */}
             <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
             <svg 
-                className="w-18 h-18 text-gray-400" 
+                className="w-18 h-18 text-gray-400 dark:text-gray-500" 
                 fill="none" 
                 strokeLinecap="round" 
                 strokeLinejoin="round" 
@@ -32,13 +38,13 @@ export default function Home() {
         </section>
         
           
-        <section id="about"className="py-20 px-4 bg-white">
+        <section id="about" className="py-20 px-4 bg-white dark:bg-gray-800">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
               About
             </h2>
             
-            <div className="space-y-6 text-gray-700 leading-relaxed">
+            <div className="space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed">
               <p className="text-lg">
                 Senior product leader with 12+ years building cloud platforms, 
                 fintech APIs, and AI-enabled products. Currently fractional CPO 
@@ -59,38 +65,38 @@ export default function Home() {
               </div>
   
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="p-6 bg-gray-50 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <div className="p-6 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   Cloud Platforms
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 dark:text-gray-300">
                   AWS, GCP, Azure • Kubernetes • Platform Engineering • DevOps
                 </p>
               </div>
   
-              <div className="p-6 bg-gray-50 rounded-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <div className="p-6 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   Fintech & Payments
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 dark:text-gray-300">
                   Digital Wallets • Card APIs • Transaction Controls • Compliance
                 </p>
               </div>
   
-              <div className="p-6 bg-gray-50 rounded-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <div className="p-6 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   AI Strategy
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 dark:text-gray-300">
                   Product-Market Fit • MLOps • Computer Vision • Decision Engines
                 </p>
               </div>
   
-              <div className="p-6 bg-gray-50 rounded-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <div className="p-6 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   Developer Tools
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 dark:text-gray-300">
                   API Design • CLI Tools • Platform APIs • Developer Experience
                 </p>
               </div>
@@ -98,24 +104,24 @@ export default function Home() {
           </div>
         </section>
         {/* Projects Section */}
-      <section id="projects"className="py-20 px-4 bg-gray-50">
+      <section id="projects" className="py-20 px-4 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
             Projects
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Project Card 1 - Featured */}
-            <div className="bg-white p-6 rounded-lg border-2 border-blue-500 hover:shadow-lg transition-shadow duration-200">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border-2 border-blue-500 dark:border-blue-400 hover:shadow-lg transition-shadow duration-200">
               <div className="mb-3">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   Fractional Chief Product Officer
                 </h3>
-                <span className="px-3 py-1 bg-green-100 text-green-800 text-sm font-medium rounded-full">
+                <span className="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-sm font-medium rounded-full">
                   Live
                 </span>
               </div>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Professional services site showcasing fractional CPO expertise and product leadership portfolio
               </p>
               <a 
@@ -129,46 +135,46 @@ export default function Home() {
             </div>
   
              {/* Project Card 2 */}
-            <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-200">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg transition-shadow duration-200">
               <div className="flex items-center justify-between mb-3">
-                <h3 className="text-xl font-bold text-gray-900">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                   AI-Powered PRD Generator
                 </h3>
-                <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">
+                <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-sm font-medium rounded-full">
                   Coming Soon
                 </span>
               </div>
-              <p className="text-gray-600">
+              <p className="text-gray-600 dark:text-gray-300">
                 Tool to transform product ideas into structured PRDs using AI assistance
               </p>
             </div>
 
             {/* Project Card 3 */}
-            <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-200">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg transition-shadow duration-200">
               <div className="flex items-center justify-between mb-3">
-                <h3 className="text-xl font-bold text-gray-900">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                   Platform Metrics Dashboard
                 </h3>
-                <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">
+                <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-sm font-medium rounded-full">
                   Coming Soon
                 </span>
               </div>
-              <p className="text-gray-600">
+              <p className="text-gray-600 dark:text-gray-300">
                 Real-time analytics dashboard for platform health and adoption metrics
               </p>
             </div>
 
             {/* Project Card 4 */}
-            <div className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-200">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg transition-shadow duration-200">
               <div className="flex items-center justify-between mb-3">
-                <h3 className="text-xl font-bold text-gray-900">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                   API Documentation Hub
                 </h3>
-                <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">
+                <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-sm font-medium rounded-full">
                   Coming Soon
                 </span>
               </div>
-              <p className="text-gray-600">
+              <p className="text-gray-600 dark:text-gray-300">
                 Interactive API documentation with live examples and sandbox environment
               </p>
             </div>
@@ -176,12 +182,12 @@ export default function Home() {
         </div>
       </section>
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 bg-white">
+      <section id="contact" className="py-20 px-4 bg-white dark:bg-gray-800">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 text-center">
             Get In Touch
           </h2>
-          <p className="text-gray-600 text-center mb-8">
+          <p className="text-gray-600 dark:text-gray-300 text-center mb-8">
             Interested in fractional CPO services or discussing product strategy? Let's connect.
           </p>
           
@@ -191,7 +197,7 @@ export default function Home() {
             className="space-y-6"
           >
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                 Name
               </label>
               <input
@@ -199,13 +205,13 @@ export default function Home() {
                 name="name"
                 id="name"
                 required
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white bg-white dark:bg-gray-700"
                 placeholder="Your name"
               />
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                 Email
               </label>
               <input
@@ -213,13 +219,13 @@ export default function Home() {
                 name="email"
                 id="email"
                 required
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white bg-white dark:bg-gray-700"
                 placeholder="your.email@example.com"
               />
             </div>
 
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                 Message
               </label>
               <textarea
@@ -227,7 +233,7 @@ export default function Home() {
                 id="message"
                 required
                 rows={5}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white bg-white dark:bg-gray-700"
                 placeholder="Tell me about your project or inquiry..."
               />
             </div>

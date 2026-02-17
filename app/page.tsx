@@ -1,4 +1,5 @@
 import { ThemeToggle } from "./components/ThemeToggle";
+import { ContactForm } from "./components/ContactForm";
 
 export default function Home() {
     return (
@@ -191,60 +192,7 @@ export default function Home() {
             Interested in fractional CPO services or discussing product strategy? Let's connect.
           </p>
           
-          <form 
-            action="https://formspree.io/f/meelkknl" 
-            method="POST"
-            className="space-y-6"
-          >
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Name
-              </label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                required
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white bg-white dark:bg-gray-700"
-                placeholder="Your name"
-              />
-            </div>
-
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Email
-              </label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                required
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white bg-white dark:bg-gray-700"
-                placeholder="your.email@example.com"
-              />
-            </div>
-
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Message
-              </label>
-              <textarea
-                name="message"
-                id="message"
-                required
-                rows={5}
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white bg-white dark:bg-gray-700"
-                placeholder="Tell me about your project or inquiry..."
-              />
-            </div>
-
-            <button
-              type="submit"
-              className="w-full bg-blue-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200"
-            >
-              Send Message
-            </button>
-          </form>
+          <ContactForm />
         </div>
       </section>
       {/* Footer */}

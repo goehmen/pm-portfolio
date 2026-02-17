@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Greg Oehmen | Product Leader & AI-Native Builder",
-  description: "Senior product leader with 12+ years building cloud platforms, fintech APIs, and AI-enabled products. Fractional CPO for early-stage startups.",
+  title: "Greg Oehmen | Product Leader and AI-Native Builder",
+  description: "Product executive with a rare arc: DBA and data engineer to cloud platform leader to fintech API strategist. 12+ years shipping data-driven products. Currently Fractional CPO for AI startups.",
   keywords: ["Product Management", "Fractional CPO", "Cloud Platforms", "Fintech", "AI Strategy"],
   authors: [{ name: "Greg Oehmen" }],
   icons: {
@@ -28,15 +28,15 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Greg Oehmen | Product Leader & AI-Native Builder",
-    description: "Senior product leader specializing in cloud platforms, fintech APIs, and AI products",
+    title: "Greg Oehmen | Product Leader and AI-Native Builder",
+    description: "Product executive with a rare arc: DBA and data engineer to cloud platform leader to fintech API strategist. 12+ years shipping data-driven products. Currently Fractional CPO for AI startups.",
     url: "https://pm-portfolio-goehmen.vercel.app",
     siteName: "Greg Oehmen Portfolio",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Greg Oehmen | Product Leader & AI-Native Builder",
+    title: "Greg Oehmen | Product Leader and AI-Native Builder",
     description: "Senior product leader with 12+ years building cloud platforms, fintech APIs, and AI-enabled products. Fractional CPO for early-stage startups.",
   },
 };

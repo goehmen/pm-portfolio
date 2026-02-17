@@ -18,6 +18,15 @@ export const metadata: Metadata = {
   description: "Senior product leader with 12+ years building cloud platforms, fintech APIs, and AI-enabled products. Fractional CPO for early-stage startups.",
   keywords: ["Product Management", "Fractional CPO", "Cloud Platforms", "Fintech", "AI Strategy"],
   authors: [{ name: "Greg Oehmen" }],
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
   openGraph: {
     title: "Greg Oehmen | Product Leader & AI-Native Builder",
     description: "Senior product leader specializing in cloud platforms, fintech APIs, and AI products",

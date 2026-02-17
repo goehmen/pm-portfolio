@@ -57,6 +57,8 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
+      {/* Honeypot - hidden field to catch bots */}
+      <input type="text" name="_gotcha" style={{display: "none"}} tabIndex={-1} autoComplete="off" />
       {status === "error" && (
         <div className="bg-red-100 dark:bg-red-900 border border-red-400 dark:border-red-600 text-red-800 dark:text-red-200 px-4 py-3 rounded-lg">
           Something went wrong. Please try again or email me directly.

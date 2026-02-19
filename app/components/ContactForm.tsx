@@ -74,6 +74,7 @@ export function ContactForm() {
           name="name"
           id="name"
           required
+          autoComplete="name"
           className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white bg-white dark:bg-gray-700"
           placeholder="Your name"
         />
@@ -88,6 +89,7 @@ export function ContactForm() {
           name="email"
           id="email"
           required
+          autoComplete="email"
           className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white bg-white dark:bg-gray-700"
           placeholder="your.email@example.com"
         />
@@ -101,6 +103,7 @@ export function ContactForm() {
           name="message"
           id="message"
           required
+          autoComplete="off"
           rows={5}
           className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white bg-white dark:bg-gray-700"
           placeholder="Tell me about your project or inquiry..."

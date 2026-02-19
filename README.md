@@ -54,6 +54,7 @@ pm-portfolio/
 - ✅ **Form Redirect** - Stays on page after submission (better UX)
 - ✅ **Footer** - 4-column responsive layout (About, Quick Links, Connect, Tech Stack)
 - ✅ **Vercel Analytics** - Privacy-friendly visitor tracking
+- ✅ **dark Mode Toggle** - Theme switcher with persistence
 - ✅ **Full SEO Suite:**
   - Optimized title and meta description
   - Open Graph tags for social sharing
@@ -117,7 +118,6 @@ Automatically deployed via Vercel when code is pushed to the `main` branch.
 ### **V3 (Future):**
 - [ ] Blog section with MDX content
 - [ ] Testimonials section
-- [ ] Dark mode toggle
 - [ ] Resume download link
 - [ ] CMS integration (Contentful or Sanity)
 - [ ] Advanced animations and transitions
